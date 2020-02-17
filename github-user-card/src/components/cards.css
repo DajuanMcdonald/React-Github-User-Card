@@ -1,0 +1,8 @@
+.user-card {
+    border: 1px solid;
+    width: 50vw;
+    background-color: darkslategray;
+    color: cornflowerblue;
+    margin: 5%;
+    padding: 2%;
+}
