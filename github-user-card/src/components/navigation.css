@@ -1,0 +1,7 @@
+.nav-bar {
+    padding: 2%;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}

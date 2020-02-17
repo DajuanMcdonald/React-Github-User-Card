@@ -43,7 +43,7 @@ class Cards extends Component {
         return (
             <div>
 
-                <div className="navbar">Search</div>
+
                 <>
                     <Card className='user-card'>
                         <CardImg style={{border: '2px solid', width: '40vw'}} src={this.state.image}/>
