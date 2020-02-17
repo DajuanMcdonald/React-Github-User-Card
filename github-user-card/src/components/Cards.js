@@ -4,8 +4,7 @@ import './cards.css';
 import {Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button} from 'reactstrap'
 
 
-
-    class Cards extends Component {
+class Cards extends Component {
     constructor() {
         super();
         this.state = {
@@ -38,10 +37,13 @@ import {Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button} from
             }))
             .catch(err => console.log(err, '!'))
     }
-        render() {
+
+
+    render() {
         return (
             <div>
 
+                <div className="navbar">Search</div>
                 <>
                     <Card className='user-card'>
                         <CardImg style={{border: '2px solid', width: '40vw'}} src={this.state.image}/>
